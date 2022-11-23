@@ -19,7 +19,7 @@ describe('index.js', function () {
     });
 
     it('should return "No go." if the destination city is not NYC', function () {
-      expect(ternaryCheckCity('Pittsburgh')).to.equal('No go.');
+      expect(ternaryCheckCity('Pitersburgh')).to.equal('No go.');
     });
   });
 
